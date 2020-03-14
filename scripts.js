@@ -36,7 +36,6 @@ function init() {
     shuttleBackground.style.backgroundColor = "green";
     spaceShuttleHeight.innerHTML = trueHeight;
   })
-
   
   leftButton.addEventListener("click", function() {
     rocketPosition -= 10;
