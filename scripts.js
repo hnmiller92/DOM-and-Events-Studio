@@ -24,14 +24,14 @@ function init() {
   })
 
   landButton.addEventListener("click", function() {
-    let answer = alert("The shuttle is landing. Landing gear engaged.");
+    alert("The shuttle is landing. Landing gear engaged.");
     flightStatus.innerHTML = "The shuttle has landed.";
     shuttleBackground.style.backgroundColor = "green";
     spaceShuttleHeight.innerHTML = trueHeight;
   })
 
   missionAbort.addEventListener("click", function() {
-    let answer = confirm("Confirm that you want to abort the mission.");
+    confirm("Confirm that you want to abort the mission.");
     flightStatus.innerHTML = "Mission aborted.";
     shuttleBackground.style.backgroundColor = "green";
     spaceShuttleHeight.innerHTML = trueHeight;
